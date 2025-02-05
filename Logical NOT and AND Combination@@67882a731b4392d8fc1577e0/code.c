@@ -3,12 +3,12 @@ int main()
 {
     int a,b;
     scanf("%d %d",&a,&b);
-    if(a==00 || b==0)
+    if(a!=00 || b!=0)
     {
-        printf("False");
+        printf("True");
     }
     else
     {
-        printf("True");
+        printf("False");
     }
 }
