@@ -6,13 +6,13 @@ int main()
     switch(a)
     {
         case 'R':
-        printf("stop");
+        printf("Stop");
         break;
         case 'G':
         printf("Go");
         break;
         case 'Y':
-        printf("slow down");
+        printf("Slow Down");
         break;
         default:
         printf("Invalid");
