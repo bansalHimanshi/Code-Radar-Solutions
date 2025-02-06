@@ -19,7 +19,7 @@ int main()
     {
         printf("Below Average");
     }
-    else if (a==F)
+    else // (a==F)
     {
         printf("Fail");
     }
