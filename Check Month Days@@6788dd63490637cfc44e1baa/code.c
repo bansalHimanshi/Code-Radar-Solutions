@@ -6,7 +6,7 @@ int main()
     switch(a);
     {
         case 1:
-        printf("31");
+        printf("%d",31);
         break;
     }
 }
