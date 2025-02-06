@@ -11,7 +11,7 @@ int main()
     {
         printf("Good");
     }
-    else if (a==C)
+    /*else if (a==C)
     {
         printf("Average");
     }
@@ -22,6 +22,6 @@ int main()
     else // (a==F)
     {
         printf("Fail");
-    }
+    }*/
     
 }
