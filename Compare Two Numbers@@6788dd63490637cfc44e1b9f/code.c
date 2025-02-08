@@ -11,6 +11,10 @@ int main()
     {
         printf("First");
     }
+    else if(a<b)
+    {
+        printf("Second")
+    }
     else{
         printf("Equal");
     }
