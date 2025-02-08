@@ -15,4 +15,8 @@ int main()
     {
         printf("Different Sign");
     }
+    else if (a<0 || a>0)
+    {
+        printf("Different Sign");
+    }
 }
