@@ -12,13 +12,14 @@ int main()
     {
         printf("Equilateral");
     }
-  else if(a!=b!=c)
-   {
-        printf("Scalene");
-    }
+  
     else if (b=c  && a!=c )
     {
         printf("Isosceles");
+    }
+    else if(a!=b!=c)
+   {
+        printf("Scalene");
     }
     
 }
