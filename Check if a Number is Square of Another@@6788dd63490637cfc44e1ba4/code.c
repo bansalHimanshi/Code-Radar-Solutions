@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<math.h>
- main()
+int main()
 {
     int a,b,c=2;
     scanf("%d",&a);
