@@ -11,12 +11,15 @@ int main()
     {
         printf("Same Sign");
     }
-     else if (a>0 && a<0)
+ /*    else if (a>0 && a<0)
     {
         printf("Different Sign");
     }
     else if (a<0 && a>0)
     {
         printf("Different Sign");
+    }*/
+    else{
+        printf("Different Sign")
     }
 }
