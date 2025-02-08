@@ -12,7 +12,7 @@ int main()
     {
         printf("Equilateral");
     }
-    else{
+else if(a!=b!=c){
         printf("Scalene");
     }
 }
