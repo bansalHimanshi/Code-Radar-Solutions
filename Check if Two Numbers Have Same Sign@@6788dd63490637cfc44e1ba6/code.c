@@ -20,6 +20,6 @@ int main()
         printf("Different Sign");
     }*/
     else{
-        printf("Different Sign")
+        printf("Different Sign");
     }
 }
