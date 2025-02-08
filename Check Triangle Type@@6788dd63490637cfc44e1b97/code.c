@@ -20,4 +20,8 @@ int main()
     {
         printf("Isosceles");
     }
+     if (c=b  && b!=a )
+    {
+        printf("Isosceles");
+    }
 }
