@@ -5,9 +5,9 @@ int main()
     scanf("%d %d",&a,&b);
     for(c=1;c<=a;c++)
 {
-       for(d=c;d<=b;d--)
+       for(d=1;d<=b;d--)
        {
-        printf("*\n");
+        printf("*");
        }
-}
+}printf("%n");
 }
