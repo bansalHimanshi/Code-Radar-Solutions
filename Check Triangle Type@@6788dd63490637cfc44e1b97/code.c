@@ -8,12 +8,12 @@ int main()
     {
         printf("Isosceles");
     }
-    else if(a!=b!=c){
-        printf("Scalene");
-    }
   else  if(a=b=c)
     {
         printf("Equilateral");
     }
-
+  else if(a!=b!=c)
+   {
+        printf("Scalene");
+    }
 }
