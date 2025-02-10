@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include<math.h>
 int main()
 {
-    int a,b,c=2;
+    double,double a,b,c=2;
     scanf("%d %d",&a,&b);
-    a= pow(b,c);
+    a = pow(b,c);
     if(a=b)
     {
         printf("Yes");
