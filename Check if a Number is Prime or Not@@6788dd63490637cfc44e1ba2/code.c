@@ -2,9 +2,7 @@
 int main{
 
 int b=0,a,c;
- //printf("start :");
-// scanf("%d",&b);
- printf("end :");
+
  scanf("%d",&c);
  for(a=1;a<=c;a++)
  {
