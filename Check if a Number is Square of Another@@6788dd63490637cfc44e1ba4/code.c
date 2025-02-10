@@ -2,9 +2,9 @@
 #include<math.h>
 int main()
 {
-     double  int a,b,c=2;
+    int a,b,c=2;
     scanf("%d %d",&a,&b);
-    a = pow(b,c);
+    (int)a = pow(b,c);
     if(a=b)
     {
         printf("Yes");
