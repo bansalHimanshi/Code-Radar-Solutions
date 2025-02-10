@@ -8,12 +8,12 @@ int main()
         if (a%c==0)
         b++;
     }
-    if(b<2)
+    if(b>2)
     {
-        printf("Prime");
+        printf("Not Prime");
     }
     else
     {
-        printf("Not Prime");
+        printf("Prime");
     }
 }
