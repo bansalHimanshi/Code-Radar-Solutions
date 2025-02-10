@@ -4,7 +4,7 @@ int main()
 {
     int a, b, c = 2;
     scanf("%d %d", &a, &b);
-    a = b*b // This calculates b raised to the power of c
+    a = b*b ;// This calculates b raised to the power of c
 
     if (a == b) // Use == to compare values
     {
