@@ -2,7 +2,7 @@
 #include<math.h>
 int main()
 {
-    double,double a,b,c=2;
+     double  int a,b,c=2;
     scanf("%d %d",&a,&b);
     a = pow(b,c);
     if(a=b)
