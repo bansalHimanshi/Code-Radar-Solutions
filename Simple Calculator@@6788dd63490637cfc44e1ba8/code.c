@@ -1,4 +1,5 @@
 #include <stdio.h>
+int main(){
 int a,b,c;
 char d;
 scanf("%c",&d);
@@ -8,4 +9,5 @@ switch (d)
     case '+' :
     c=a+b;
     printf("%d",c);
+}
 }
