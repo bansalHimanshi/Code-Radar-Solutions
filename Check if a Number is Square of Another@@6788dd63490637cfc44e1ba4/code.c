@@ -4,7 +4,7 @@ int main()
 {
     int a,b,c=2;
     scanf("%d %d",&a,&b);
-    (int)a = pow(b,c);
+    a = (int)round(pow(b,c));
     if(a=b)
     {
         printf("Yes");
