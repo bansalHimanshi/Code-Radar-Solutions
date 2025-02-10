@@ -2,24 +2,24 @@
 #include<math.h>
 int main()
 {
-    // int a,b,c=2;
-    // scanf("%d",&a);
-    // b= pow(a,c);
-    // if(a=b)
-    // {
-    //     printf("Yes");
-    // }
-    // else if(a!=b)
-    // {
-    //     printf("No");
-    // }
-    int a,b;
+    int a,b,c=2;
+    scanf("%d %d",&a,&b);
+    a= pow(a,c);
+    if(a=b)
+    {
+        printf("Yes");
+    }
+    else if(a!=b)
+    {
+        printf("No");
+     }
+   /* int a,b;
     scanf("%d %d",&a,&b);
     if(a==b*b){
         printf("Yes");
     }
     else{
         printf("No");
-    }
+    }*/
 
 }
