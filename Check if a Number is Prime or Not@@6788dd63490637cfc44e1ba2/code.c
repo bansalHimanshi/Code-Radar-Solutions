@@ -1,16 +1,19 @@
-# include <stdio.h>
-int main(){
-
-int b=0,a,c;
-
- scanf("%d",&c);
- for(a=1;a<=c;a++)
- {
- 	if(c%a==0)
-	b++;
+#include<stdio.h>
+int main()
+{
+    int a,b=0,c;
+    scanf("%d",&c);
+    for(a=1;a<=c;a++)
+    {
+        if (a%c==0)
+        b++;
+    }
+    if(b<2)
+    {
+        printf("Prime");
+    }
+    else
+    {
+        printf("Not Prime");
+    }
 }
-if(b>2)
-printf("not prime");
-else
-printf("prime");
- }
