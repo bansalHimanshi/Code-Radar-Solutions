@@ -5,7 +5,7 @@ int main()
     int a,b,c=2;
     scanf("%d %d",&a,&b);
     a = (int)pow(b,c);
-    if(a=b)
+    if(a==b)
     {
         printf("Yes");
     }
