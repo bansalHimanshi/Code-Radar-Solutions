@@ -4,7 +4,7 @@ int main()
 {
     int a,b,c=2;
     scanf("%d %d",&a,&b);
-    a= power(b,c);
+    a= pow(b,c);
     if(a=b)
     {
         printf("Yes");
