@@ -9,5 +9,18 @@ switch (d)
     case '+' :
     c=a+b;
     printf("%d",c);
+    break;
+    case '-' :
+    c=a-b;
+    printf("%d",c);
+    break;
+        case '*' :
+    c=a*b;
+    printf("%d",c);
+    break;
+        case '/' :
+    c=a/b;
+    printf("%d",c);
+    break;
 }
 }
