@@ -26,7 +26,7 @@ switch (d)
 }
 */
     int a,b;
-    char c;
+    int c;
     scanf("%d %d %c",&a,&b,&c);
     if (c=="+"){
         printf("%d",a+b);
