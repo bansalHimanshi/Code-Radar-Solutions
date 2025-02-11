@@ -11,6 +11,7 @@ int main()
            printf("%c ",d);
             
         }
-        d++;
-printf("\n");    }
+        
+printf("\n"); 
+d++;   }
 }
