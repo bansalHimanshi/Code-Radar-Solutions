@@ -5,6 +5,7 @@ int main()
     scanf("%d",&n);
     for(a=1;a<=n;a++)
     {
+        b+=a;
 
     }
-printf("%d",a);}
+printf("%d",b);}
