@@ -12,8 +12,9 @@ int main()
     {
         printf("Not Prime");
     }
-    else if (c==0 || c==1)
+    else if (c==0 || c==1){
     printf("Not Prime");
+    }
     else
     {
         printf("Prime");
