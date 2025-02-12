@@ -5,11 +5,11 @@ int main()
     char d;
    // scanf("%c",&d)
     scanf("%d",&c);
-    for(a=1;a<=c;a++)
+    for(a=65;a<=c;a++)
     {
-        for(b=1;b<=a;b++)
+        for(b=65;b<=a;b++)
         {
-            printf("%c ",'A');
+            printf("%c ",b);
           
         }
   printf("\n");  }
