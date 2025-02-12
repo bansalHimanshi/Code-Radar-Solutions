@@ -9,8 +9,8 @@ int main()
     {
         for(b=1;b<=a;b++)
         {
-            printf("%c ",d);
-            d++;
+            printf("%c ",'A');
+          
         }
   printf("\n");  }
 }
