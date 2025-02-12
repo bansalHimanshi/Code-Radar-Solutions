@@ -9,5 +9,5 @@ int main()
         {
             printf("%c ",'A');
         }
-  printf("\n")  }
+  printf("\n");  }
 }
