@@ -5,7 +5,7 @@ int main()
     char d;
    // scanf("%c",&d)
     scanf("%d",&c);
-    for(a=65;a<=90;a++)
+    for(a=65;a<=c;a++)
     {
         for(b=65;b<=a;b++)
         {
