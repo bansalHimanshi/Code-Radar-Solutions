@@ -1,16 +1,17 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int a,b,c;
-    char d;
-   // scanf("%c",&d)
+    char d= 'A';
     scanf("%d",&c);
-    for(a=65;a<=c;a++)
+    for(a=1;a<=c;a++)
     {
-        for(b=65;b<=a;b++)
+        for(b=1;b<=a;b++)
         {
-            printf("%c ",b);
-          
-        }
-  printf("\n");  }
+           printf("%c ",d);
+            d++;
+        }d='A';
+        
+printf("\n"); 
+   }
 }
