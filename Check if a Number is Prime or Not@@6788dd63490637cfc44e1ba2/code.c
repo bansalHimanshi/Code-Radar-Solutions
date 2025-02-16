@@ -5,16 +5,16 @@ int main()
   scanf("%d",&c);
   for(a=1,a<=c,a++)
   {
-    if(c%a==0)
-    b++;
+    if(c%a==0){
+    b++;}
   }
   if(b>2 || c==0 ||c==1)
   {
-    printf("Prime");
+    printf("Not Prime\n");
   }
   else
   {
-    printf("Not Prime");
+    printf("Prime");
   }
 }
 /*#include <stdio.h>
