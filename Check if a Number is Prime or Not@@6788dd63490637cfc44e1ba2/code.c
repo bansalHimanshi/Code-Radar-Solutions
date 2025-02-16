@@ -8,7 +8,7 @@ int main()
     if(c%a==0){
     b++;}
   }
-  if(b>2 || c==0 ||c==1)
+  if(b>0 || c==0 ||c==1)
   {
     printf("Not Prime\n");
   }
