@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 int main()
 {
   int a,b=0,c;
@@ -16,8 +16,8 @@ int main()
   {
     printf("Prime");
   }
-}
-/*#include <stdio.h>
+}*/
+#include <stdio.h>
 
 int main() {
     int a, b = 0, c;
@@ -36,4 +36,4 @@ int main() {
     }
 
     return 0;
-}*/
+}
