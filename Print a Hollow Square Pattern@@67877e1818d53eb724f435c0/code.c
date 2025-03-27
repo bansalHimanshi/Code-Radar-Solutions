@@ -9,7 +9,6 @@ int main()
         for(b=0;b<=c;b++)
         {
             if(a==1 ||a==c || b==1 || b==c)
-            
             {
             
             printf("*");
