@@ -1,4 +1,4 @@
-/*# include<stdio.h>
+# include<stdio.h>
 int main()
 {
     int a,b,c,d;
@@ -16,8 +16,8 @@ int main()
             else{printf(" ");}
         }
    printf("\n"); }
-}*/
-#include <stdio.h>
+}
+/*#include <stdio.h>
 
 int main() {
     int n;
@@ -35,4 +35,4 @@ int main() {
     }
 
     return 0;
-}
+}*/
