@@ -3,11 +3,12 @@ int main()
 {
     int a,b,c,d;
     scanf("%d",&c);
+
     for(a=0;a<=c;a++)
     {
         for(b=0;b<=c;b++)
         {
-            if(a==0 ||a==c-1 || b==0 || b==c-1)
+            if(a==1 ||a==c || b==1 || b==c)
             
             {
             
