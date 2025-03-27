@@ -6,7 +6,7 @@ int main()
 
     for(a=1;a<=c;a++)
     {
-        for(b=1;b<c;b++)
+        for(b=1;b<=c;b++)
         {
             if(a==0 ||a==c || b==0 || b==c)
             {
