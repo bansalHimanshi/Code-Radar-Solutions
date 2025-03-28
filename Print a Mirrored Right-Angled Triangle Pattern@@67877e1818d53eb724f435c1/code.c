@@ -6,5 +6,12 @@ int main()
     for(i=1;i<=n;i++)
     {
         for(k=1;i<k;k++)
-    }
+        {
+            printf(" ");
+        }
+        for(j=1;j<=i;j++)
+        {
+            printf("* ");
+        }
+    } printf("\n");
 }
