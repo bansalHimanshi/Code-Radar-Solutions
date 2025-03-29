@@ -1,7 +1,7 @@
 #include <stdio.h>
-int isPrime(int,int);
+int isPrime(int);
 
-int isPrime(int c){
+int isPrime(int num){
     int a,b,c,d;
     scanf("%d",&c);
     for(a=1;a<=c;a++)
@@ -23,7 +23,12 @@ int main
 {
 int num;
 scanf("%d";&num);
-printf("%d";isPrime(num));
+if (isPrime(num)){
+    printf("prime");
+}
+else {
+    printf("not prime");
+}
 }
 
     
