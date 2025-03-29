@@ -7,8 +7,8 @@ int fibonacciSeries(int n)
     for(b=1;b<=n;b=a+b)
     {
         printf("%d\t",a);
-        a=a+b;
-        printf("%d\t",b);
+     //   a=a+b;
+       // printf("%d\t",b);
         //return 1;
     }
 }
