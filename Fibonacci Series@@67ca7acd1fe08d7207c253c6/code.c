@@ -9,5 +9,6 @@ int fibonacciSeries(int n)
         printf("%d\t",a);
         a=a+b;
         printf("%d\t",b);
+        return 0;
     }
 }
