@@ -1,7 +1,7 @@
 #include <stdio.h>
-void isPrime(int,int);
+int isPrime(int,int);
 
-void isPrime(int c){
+int isPrime(int c){
     int a,b,c,d;
     scanf("%d",&c);
     for(a=1;a<=c;a++)
