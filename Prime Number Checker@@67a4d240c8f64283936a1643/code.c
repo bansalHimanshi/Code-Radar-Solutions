@@ -1,8 +1,8 @@
 #include <stdio.h>
-int isPrime(int);
+//int isPrime(int);
 
 int isPrime(int c){
-    int a,b,c,d;
+    int a,b,d;
    // scanf("%d",&c);
     for(a=1;a<=c;a++)
     {
@@ -19,7 +19,7 @@ int isPrime(int c){
     }
 }
 
-int main
+int main()
 {
 int c;
 scanf("%d";&c);
