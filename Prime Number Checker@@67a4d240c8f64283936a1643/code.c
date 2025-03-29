@@ -18,9 +18,9 @@ int isPrime(int c)
     }
 }
 
-int main()
+int main(int c)
 {
-int c;
+
 scanf("%d",&c);
 if (isPrime(c)){
     printf("prime");
