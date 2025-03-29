@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-void isPrime(int);
+int isPrime(int);
 
-void isPrime(int c)
+int isPrime(int c)
 {
     int a,b=0;
     for(a=1;a<=c;a++)
