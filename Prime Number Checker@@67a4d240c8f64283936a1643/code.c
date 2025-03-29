@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-
 int isPrime(int c)
 {
     int a,b=0;
