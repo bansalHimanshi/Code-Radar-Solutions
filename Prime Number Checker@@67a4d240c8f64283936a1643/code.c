@@ -1,4 +1,4 @@
-/*#include<stdio.h>
+#include<stdio.h>
 
 void isPrime(int);
 
@@ -21,7 +21,7 @@ void isPrime(int c)
     }
 }
 
-int main()
+/*int main()
 {
     int c;
     scanf("%d",&c);
@@ -34,38 +34,3 @@ int main()
     }
 }*/
 
-#include <stdio.h>
-int isPrime(int c)
-{
-    int a, b = 0;
-
-    for (a = 1; a <= c; a++)
-    {
-        if (c % a == 0)
-            b++;
-    }
-    if (b > 2 || c == 0 || c == 1)
-    {
-        return 0;
-    }
-    else
-    {
-        return 1;
-    }
-}
-
-int main()
-{
-    int c;
-    
-    scanf("%d", &c);
-    if (isPrime(c))
-    {
-        printf("prime\n");
-    }
-    else
-    {
-        printf("not prime\n");
-    }
-    return 0;
-}
