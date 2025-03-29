@@ -2,7 +2,7 @@
 //int isPrime(int);
 
 int isPrime(int c){
-    int a,b,d;
+    int a,b=0,d;
    // scanf("%d",&c);
     for(a=1;a<=c;a++)
     {
