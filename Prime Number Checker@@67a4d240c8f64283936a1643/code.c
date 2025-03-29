@@ -1,10 +1,10 @@
 #include <stdio.h>
-//int isPrime(int);
+
 
 int isPrime(int c)
 {
     int a,b=0;
-   // scanf("%d",&c);
+
     for(a=1;a<=c;a++)
     {
         if (c%a==0)
