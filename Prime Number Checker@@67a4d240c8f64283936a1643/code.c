@@ -1,9 +1,9 @@
 #include <stdio.h>
 int isPrime(int);
 
-int isPrime(int num){
+int isPrime(int c){
     int a,b,c,d;
-    scanf("%d",&c);
+   // scanf("%d",&c);
     for(a=1;a<=c;a++)
     {
         if (c%a==0)
@@ -21,9 +21,9 @@ int isPrime(int num){
 
 int main
 {
-int num;
-scanf("%d";&num);
-if (isPrime(num)){
+int c;
+scanf("%d";&c);
+if (isPrime(c)){
     printf("prime");
 }
 else {
