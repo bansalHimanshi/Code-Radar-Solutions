@@ -1,7 +1,7 @@
 #include<stdio.h>
-int fibonacciSeries(int);
+void fibonacciSeries(int);
 
-int fibonacciSeries(int n)
+void fibonacciSeries(int n)
 {
     int a=0,b=1;
     for(b=1;b<=n;b=b+a)
