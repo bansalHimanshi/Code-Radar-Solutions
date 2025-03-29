@@ -12,5 +12,5 @@ void fibonacciSeries(int n)
         b=c;
        
         //return 1;
-    }
+ printf("\n");   }
 }
