@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int isPrime();
+int isPrime(int);
 
 int isPrime(int c)
 {
