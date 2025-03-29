@@ -1,19 +1,10 @@
 #include <stdio.h>
+void isPrime(int,int);
 
-void isPrime();
-
-
-int main() {
-    int t;
-    scanf("%d",&t);
-    while(t--){
-        int num;
-        scanf("%d",&num);
-        printf("%d\n", isPrime(num));
-    }
+int main(){
+    int a,b,c,d;
+    scanf("%d",&c)
 }
 
-void isPrime()
-{
     
-}
+
