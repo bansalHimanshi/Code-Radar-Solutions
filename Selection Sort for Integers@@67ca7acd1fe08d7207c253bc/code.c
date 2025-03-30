@@ -13,7 +13,7 @@ void selectionSort(int arr[],int n){
             {
                 tem=arr[i];
                 arr[i]=arr[f];
-                arr[f]=tem
+                arr[f]=tem;
             }
         }
     }
