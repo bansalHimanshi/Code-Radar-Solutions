@@ -7,9 +7,9 @@ int main()
     {
         scanf("%d",&a[d]);
     }
-    for(d=0;d<n-1;d++)
+    for(d=1;d<n;d++)
     {
-        if(a[d]<a[d+1])
+        if(a[d]<a[d-1])
         {
             printf("Not Sorted");
             return 0;
