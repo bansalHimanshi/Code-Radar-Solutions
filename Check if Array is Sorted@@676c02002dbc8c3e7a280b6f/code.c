@@ -12,11 +12,6 @@ int main()
         for(p=d+1;p<=n;p++)
         {
             if(a[d]>a[p])
-            {
-                temp=a[p];
-                a[p]=a[d];
-                a[d]=temp;
-            }
         }
     }
     if(a[d]>=a[p])
