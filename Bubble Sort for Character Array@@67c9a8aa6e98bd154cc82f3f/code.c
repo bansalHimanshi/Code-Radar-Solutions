@@ -4,7 +4,7 @@ void bubbleSort(char arr[],int n)
     int i,temp,f;
     for(i=0;i<n;i++)
     {
-        scanf("%c",&arr[i]);
+        scanf(" %c",&arr[i]);
     }
     for(i=0;i<n;i++)
     {
