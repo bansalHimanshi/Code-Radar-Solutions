@@ -6,11 +6,11 @@ int main()
     scanf("%d",&c);
     for(a=1;a<=c;a++)
     {
-        for(b=0;b<=a;b++)
+        for(b=1;b<=a;b++)
         {
-           printf("%c ",'A'+b);
+           printf("%c ",d);
             d++;
-        }//d='A';
+        }d='A';
         
 printf("\n"); 
    }
