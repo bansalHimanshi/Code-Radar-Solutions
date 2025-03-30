@@ -15,6 +15,6 @@ int main()
             {
                 ctr++;
             }
-     printf("%d",ctr);   }
-    }
+        }
+    }printf("%d",ctr);
 }
