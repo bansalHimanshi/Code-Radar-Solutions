@@ -17,5 +17,5 @@ int main()
         {
             printf("%d",1+j);
         }
-    }
+ printf("\n");   }
 }
