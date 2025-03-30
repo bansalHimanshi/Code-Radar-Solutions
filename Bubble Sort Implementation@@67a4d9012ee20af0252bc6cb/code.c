@@ -3,7 +3,7 @@
 //void printArray(int)
 void bubbleSort(int arr[], int n)
 {
-    int arr[50];
+    
     int i ,f,temp,a;
     for(i=0;i<n;i++)
     {
