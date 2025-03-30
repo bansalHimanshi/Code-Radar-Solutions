@@ -9,7 +9,7 @@ void selectionSort(char arr[], int n)
     {
         scanf("%c",&arr[i]);
     }
-    for(i=0;i<n;i++)
+    for(i=0;i<=n;i++)
     {
     for(f=i+1;f<n;f++)
     {
@@ -24,7 +24,7 @@ void selectionSort(char arr[], int n)
     }
     void printArray(char arr[],int n)
     {int i;
-       for(i=0;i<n;i++)
+       for(i=0;i<=n;i++)
     {
         printf("%c ",arr[i]);
     } 
