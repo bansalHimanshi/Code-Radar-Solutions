@@ -20,7 +20,8 @@ void selectionSort(char arr[], int n)
         arr[f]=temp;
        }
     }
-    }}
+    }
+    }
     void printArray(char arr[],int n)
     {int i;
        for(i=0;i<n;i++)
