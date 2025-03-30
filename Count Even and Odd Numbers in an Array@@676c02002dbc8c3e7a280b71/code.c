@@ -20,6 +20,6 @@ int main()
             odd=odd+a[d];
         }
     } 
-    printf("%d",even);
+    printf("%d ",even);
     printf("%d",odd); 
 }
