@@ -8,9 +8,9 @@ int main()
     {
         for(b=1;b<=a;b++)
         {
-           printf("%c ",d);
+           printf("%c ",'A'+b);
             d++;
-        }d='A';
+        }//d='A';
         
 printf("\n"); 
    }
