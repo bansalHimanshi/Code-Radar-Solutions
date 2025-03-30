@@ -12,6 +12,7 @@ int main()
         if(a[d]<a[d+1])
         {
             printf("Not Sorted");
+            return 0;
         }
     }
     
