@@ -11,7 +11,7 @@ void bubbleSort(int arr[], int n)
     }
     for(i=0;i<n;i++)
     {
-        for(f=i+n;f<n;f++)
+        for(f=i+1;f<n;f++)
         {
             temp=arr[f];
             arr[f]=arr[i];
