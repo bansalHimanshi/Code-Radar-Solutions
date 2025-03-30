@@ -14,7 +14,7 @@ int main()
             if(a[d]==a[p])
             {
                 printf("%d\n",a[d]);
-                ctr=1;
+               // ctr=1;
                 break;
             }
         }
