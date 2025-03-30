@@ -13,11 +13,11 @@ int main()
     {
         if(a[d]%2==0)
         {
-            even=even+a[d];
+            even++;
         }
         else
         {
-            odd=odd+a[d];
+            odd++;
         }
     } 
     printf("%d ",even);
