@@ -11,7 +11,7 @@ int main()
     {
         for(p=d+1;p<=n;p++)
         {
-            if(a[d]==a[f])
+            if(a[d]==a[p])
             {
                 ctr++;
             }
