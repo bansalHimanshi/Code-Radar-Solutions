@@ -19,7 +19,7 @@ int main()
             }
         }
     }
-    if(a[d]<a[p])
+    if(a[d]>a[p])
     {
         printf("Sorted");
     }
