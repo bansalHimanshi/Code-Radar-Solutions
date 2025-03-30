@@ -2,10 +2,30 @@
 
 void selectionSort(char arr[], int n)
 {
-    char i;
+    
+    int i,f,temp,
     for(i=0;i<n;i++)
     {
         scanf("%c"&arr[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+    for(f=i+1;f<n;f++)
+    {
+       if(arr[i]>arr[f])
+       {
+        temp=arr[i];
+        arr[i]=arr[f];
+        arr[f]=temp;
+       }
+    }
+    }
+    void printArray(char arr[],int n)
+    {
+       for(i=0;i<n;i++)
+    {
+        printf("%c"arr[i]);
+    } 
     }
 
 }
