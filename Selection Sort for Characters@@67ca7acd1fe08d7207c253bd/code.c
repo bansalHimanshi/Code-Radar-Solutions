@@ -5,7 +5,7 @@ void selectionSort(char arr[], int n)
     
     int i,f;
     char temp;
-    for(i=0;i<n;i++)
+    for(i=0;i<=n;i++)
     {
         scanf("%c",&arr[i]);
     }
