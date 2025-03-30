@@ -12,6 +12,9 @@ int main()
         for(p=d+1;p<n;p++)
         {
             if(a[d]>a[p])
+            {
+                return 0;
+            }
         }
     }
     if(a[d]>=a[p])
