@@ -13,12 +13,12 @@ void selectionSort(int arr[],int n){
             {
                 tem=arr[i];
                 arr[i]=arr[f];
-                arr[i]=arr[f];
+                arr[f]=tem
             }
         }
     }
 }
-void printArray(int arr[];int n)
+void printArray(int arr[],int n)
 {int i;
     for(i=0;i<n;i++)
     {
