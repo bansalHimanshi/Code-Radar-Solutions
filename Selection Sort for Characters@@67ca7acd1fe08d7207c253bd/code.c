@@ -3,7 +3,7 @@
 void selectionSort(char arr[], int n)
 {
     
-    int i,f,temp,
+    int i,f,temp;
     for(i=0;i<n;i++)
     {
         scanf("%c"&arr[i]);
