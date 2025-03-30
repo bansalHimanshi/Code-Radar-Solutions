@@ -11,7 +11,7 @@ int main()
     {
         for(p=d+1;p<=n;p++)
         {
-            if(a[d]==a[p])
+            if(a[d]>a[p])
             {
                 temp=a[p];
                 a[p]=a[d];
@@ -19,7 +19,7 @@ int main()
             }
         }
     }
-    if(a[d]=a[p])
+    if(a[d]>[p])
     {
         printf("Sorted");
     }
