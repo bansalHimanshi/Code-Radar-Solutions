@@ -11,18 +11,16 @@ int main()
     {
         for(p=d+1;p<n;p++)
         {
-            if(a[d]>a[p])
+            if(a[d]<a[p])
             {
+                printf("Not Sorted");
                 return 0;
             }
         }
     }
-    if(a[d]>=a[p])
-    {
-        printf("Sorted");
-    }
+    
     else
     {
-        printf("Not Sorted");
+        printf("Sorted");
     }
 }
