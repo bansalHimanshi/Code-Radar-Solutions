@@ -11,7 +11,7 @@ int main()
         }
         for(j=0;j<=i;j++)
         {
-            printf("%d";1+j);
+            printf("%d",1+j);
         }
         for(j=i-2;j>=0;j--)
         {
