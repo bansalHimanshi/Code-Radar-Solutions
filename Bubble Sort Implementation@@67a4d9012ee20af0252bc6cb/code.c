@@ -1,6 +1,6 @@
 #include <stdio.h>
-void bubbleSort(int);
-
+//void bubbleSort(int);
+//void printArray(int)
 void bubbleSort(int arr[], int n)
 {
     int arr[50];
