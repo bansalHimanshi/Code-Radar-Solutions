@@ -18,5 +18,5 @@ int main()
                 break;
             }
         }
-    }printf("%d",ctr);
+    }//printf("%d",ctr);
 }
