@@ -9,7 +9,7 @@ int main()
     }
     for(d=0;d<n;d++)
     {
-        if((a[d]>a[d-1])||(d==0))
+        if((a[d]>a[d-1]))
         {
               printf("%d",a[50]);
         }
