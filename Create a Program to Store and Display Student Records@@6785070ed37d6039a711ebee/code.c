@@ -8,7 +8,7 @@ int main()
         char name[50];
         float marks;
     };
-    struct student s1;
+    struct student s1[60];
     int i,n;
     scanf("%d",&n);
     for(i=0;i<=n;i++)
