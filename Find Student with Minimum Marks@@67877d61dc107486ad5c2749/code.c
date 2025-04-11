@@ -21,7 +21,7 @@ int main()
     }
     for(i=0;i<n;i++)
     {
-        if(si[i].marks<min)
+        if(s1[i].marks<min)
         min=minindex
     }
         printf("%d ",s1[minindex].rollno);
