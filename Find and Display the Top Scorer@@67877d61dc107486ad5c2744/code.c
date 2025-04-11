@@ -12,6 +12,24 @@ int main()
     scanf("%d",n);
     for(i=0;i<=n;i++)
     {
-        scanf("%d ",)
+        scanf("%d ",&s1[i].rollno);
+        scanf("%s ",&s1[i].name);
+        scanf("%f ",&s1[i].marks);
+    }
+    float max=s1[i].max;
+    int max_index=0;
+    for(i=0;i<=n;i++)
+    {
+        if (s1[i].marks>max){
+            max=s1[i].marks;
+            max_index=i;
+        }
+        
+    }
+    for(i=0;i<=n;i++)
+    {
+        printf("Top scorer: Roll Number: %d ",s1[max_index].rollno);
+        printf("Name: %s ",s1[max_index].name);
+        printf("Marks %f ",s1[max_index].marks);
     }
 }
