@@ -9,13 +9,13 @@ int main()
     struct student s[50];
     int i,n;
     scanf("%d",&n);
-    for(i=0;i<=n;i++)
+    for(i=0;i<n;i++)
     {
         scanf("%d ",&s[i].rollno);
         scanf("%s ",&s[i].name);
         scanf("%f",&s[i].marks);
     }
-    for(i=0;i<=n;i++)
+    for(i=0;i<n;i++)
     {
         printf("Roll Number: %d, ",s[i].rollno);
         printf("Name: %s, ",s[i].name);
