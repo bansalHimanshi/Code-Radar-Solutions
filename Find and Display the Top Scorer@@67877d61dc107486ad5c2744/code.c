@@ -28,8 +28,8 @@ int main()
     }
     for(i=0;i<=n;i++)
     {
-        printf("Roll Number: %d ",s1[max_index].rollno);
-        printf("Name: %s ",s1[max_index].name);
+        printf("Roll Number: %d, ",s1[max_index].rollno);
+        printf("Name: %s, ",s1[max_index].name);
         printf("Marks %.2f ",s1[max_index].marks);
     }
 }
