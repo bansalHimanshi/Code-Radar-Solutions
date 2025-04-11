@@ -19,5 +19,12 @@ int main()
         scanf("%s ",&s1[i].name);
         scanf("%f\n",&s1[i].marks);
     }
-    
+    for(i=0;i<n;i++)
+    {
+        if(si[i].marks<min)
+        min=minindex
+    }
+        printf("%d ",s1[minindex].rollno);
+        printf("%s ",s1[minindex].name);
+        printf("%f\n",s1[minindex].marks);
 }
