@@ -19,6 +19,6 @@ int main()
     {
         printf("Roll Number:%d, ",s[i].rollno);
         printf("Name:%s, ",s[i].name);
-        printf("Marks:%.2f",s[i].marks);
+        printf("Marks:%.2f\n",s[i].marks);
     }printf("\n");
 }
