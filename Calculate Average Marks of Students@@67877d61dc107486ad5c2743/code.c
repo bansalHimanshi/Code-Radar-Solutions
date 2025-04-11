@@ -16,7 +16,7 @@ int main()
         scanf("%f",&s[i].marks);
         totalmarks+=s[i].marks;
     }
-    averagemarks=totalmarks\n;
+    averagemarks=totalmarks/n;
 printf("Average Marks: %.2f",averagemarks);
 
 }
