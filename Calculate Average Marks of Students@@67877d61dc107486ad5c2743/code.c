@@ -7,7 +7,8 @@ int main()
         float marks;
     };
     struct student s[50];
-    int i,n,averagemarks,totalmarks=0.0;
+    int i,n;
+    float averagemarks,totalmarks=0.0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
