@@ -16,7 +16,7 @@ int main()
         scanf("%s ",&s1[i].name);
         scanf("%f ",&s1[i].marks);
     }
-    float max=s1[i].max;
+    float max=s1[i].marks;
     int max_index=0;
     for(i=0;i<=n;i++)
     {
