@@ -22,7 +22,7 @@ int main()
     for(i=0;i<n;i++)
     {
         if(s1[i].marks<min)
-        minindex=1[i].marks;
+        minindex=s1[i].marks;
     }
         printf("%d ",s1[minindex].rollno);
         printf("%s ",s1[minindex].name);
